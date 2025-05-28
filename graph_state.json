@@ -1,0 +1,7 @@
+{
+    "posts": {},
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "embedding_dimension": 384,
+    "collection_name": "my_collection",
+    "added_in_Qdrant": false
+}

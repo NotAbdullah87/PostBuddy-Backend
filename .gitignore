@@ -1,0 +1,26 @@
+downloaded_images/
+
+# Ignore Python cache & environment files
+__pycache__/
+*.pyc
+*.pyo
+*.env
+*.vscode/
+*.ipynb_checkpoints/
+
+# Ignore compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore IDE settings
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+
+
+server.py
