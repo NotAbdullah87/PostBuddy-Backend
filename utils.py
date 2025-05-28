@@ -7,7 +7,13 @@ import time
 
 
 # Initialize Redis client (assuming Redis is running locally)
-r = redis.StrictRedis(host='localhost', port=6379, db=0, decode_responses=True)
+r = redis.StrictRedis(host='welcomed-ox-42587.upstash.io', port=6379,password='AaZbAAIjcDE0MjEwNmJiNjMxNDI0YjY4YjNhZmJhODMwMTBkOGQ3YnAxMA',ssl=True, db=0, decode_responses=True)
+# r = redis.Redis(
+#   host='welcomed-ox-42587.upstash.io',
+#   port=6379,
+#   password='********',
+#   ssl=True
+# )
 
 def generate_chat_id(user_id: str, post_id: str) -> str:
     """Generate a unique chat_id based on user_id and post_id"""
