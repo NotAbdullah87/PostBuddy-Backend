@@ -6,8 +6,10 @@ import requests
 import time
 
 
+
+
 # Initialize Redis client (assuming Redis is running locally)
-r = redis.StrictRedis(host='welcomed-ox-42587.upstash.io', port=6379,password='AaZbAAIjcDE0MjEwNmJiNjMxNDI0YjY4YjNhZmJhODMwMTBkOGQ3YnAxMA',ssl=True, db=0, decode_responses=True)
+r = redis.StrictRedis(host='major-trout-14275.upstash.io', port=6379,password='ATfDAAIjcDFhNzkyYTY5Y2ZkYzM0NmFjOTE2ZWNkODlmMzFjM2JmNnAxMA',ssl=True, db=0, decode_responses=True)
 # r = redis.Redis(
 #   host='welcomed-ox-42587.upstash.io',
 #   port=6379,
